@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4907CC01CA6186800BA89B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4907CBF1CA6186800BA89B6 /* main.m */; };
+		D4907CCB1CA6186800BA89B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4907CCA1CA6186800BA89B6 /* Assets.xcassets */; };
+		D4907CD91CA6186800BA89B6 /* FurGlassDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4907CD81CA6186800BA89B6 /* FurGlassDemoTests.m */; };
+		D4907CE41CA6186800BA89B6 /* FurGlassDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4907CE31CA6186800BA89B6 /* FurGlassDemoUITests.m */; };
+		D4907CF81CA61A1100BA89B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4907CF71CA61A1100BA89B6 /* AppDelegate.m */; };
+		D4907CFB1CA61A7B00BA89B6 /* HHScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4907CFA1CA61A7B00BA89B6 /* HHScaleViewController.m */; };
+		D4907CFE1CA61B5800BA89B6 /* HHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4907CFD1CA61B5800BA89B6 /* HHNavigationController.m */; };
+		D4907D051CA64C3000BA89B6 /* HHHideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4907D041CA64C3000BA89B6 /* HHHideBarViewController.m */; };
+		D4907D081CA65C2600BA89B6 /* HHTransparentBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4907D071CA65C2600BA89B6 /* HHTransparentBarViewController.m */; };
+		D4907D0A1CA663A800BA89B6 /* backImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D4907D091CA663A800BA89B6 /* backImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4907CD51CA6186800BA89B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4907CB31CA6186800BA89B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4907CBA1CA6186800BA89B6;
+			remoteInfo = FurGlassDemo;
+		};
+		D4907CE01CA6186800BA89B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4907CB31CA6186800BA89B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4907CBA1CA6186800BA89B6;
+			remoteInfo = FurGlassDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4907CBB1CA6186800BA89B6 /* FurGlassDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurGlassDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4907CBF1CA6186800BA89B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4907CCA1CA6186800BA89B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4907CCF1CA6186800BA89B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4907CD41CA6186800BA89B6 /* FurGlassDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FurGlassDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4907CD81CA6186800BA89B6 /* FurGlassDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FurGlassDemoTests.m; sourceTree = "<group>"; };
+		D4907CDA1CA6186800BA89B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4907CDF1CA6186800BA89B6 /* FurGlassDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FurGlassDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4907CE31CA6186800BA89B6 /* FurGlassDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FurGlassDemoUITests.m; sourceTree = "<group>"; };
+		D4907CE51CA6186800BA89B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4907CF61CA61A1100BA89B6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4907CF71CA61A1100BA89B6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4907CF91CA61A7B00BA89B6 /* HHScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHScaleViewController.h; sourceTree = "<group>"; };
+		D4907CFA1CA61A7B00BA89B6 /* HHScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHScaleViewController.m; sourceTree = "<group>"; };
+		D4907CFC1CA61B5800BA89B6 /* HHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHNavigationController.h; sourceTree = "<group>"; };
+		D4907CFD1CA61B5800BA89B6 /* HHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHNavigationController.m; sourceTree = "<group>"; };
+		D4907CFF1CA6222B00BA89B6 /* HHPrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHPrefixHeader.h; sourceTree = "<group>"; };
+		D4907D031CA64C3000BA89B6 /* HHHideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHHideBarViewController.h; sourceTree = "<group>"; };
+		D4907D041CA64C3000BA89B6 /* HHHideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHHideBarViewController.m; sourceTree = "<group>"; };
+		D4907D061CA65C2600BA89B6 /* HHTransparentBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTransparentBarViewController.h; sourceTree = "<group>"; };
+		D4907D071CA65C2600BA89B6 /* HHTransparentBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHTransparentBarViewController.m; sourceTree = "<group>"; };
+		D4907D091CA663A800BA89B6 /* backImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4907CB81CA6186800BA89B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4907CD11CA6186800BA89B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4907CDC1CA6186800BA89B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4907CB21CA6186800BA89B6 = {
+			isa = PBXGroup;
+			children = (
+				D4907CBD1CA6186800BA89B6 /* FurGlassDemo */,
+				D4907CD71CA6186800BA89B6 /* FurGlassDemoTests */,
+				D4907CE21CA6186800BA89B6 /* FurGlassDemoUITests */,
+				D4907CBC1CA6186800BA89B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4907CBC1CA6186800BA89B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4907CBB1CA6186800BA89B6 /* FurGlassDemo.app */,
+				D4907CD41CA6186800BA89B6 /* FurGlassDemoTests.xctest */,
+				D4907CDF1CA6186800BA89B6 /* FurGlassDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4907CBD1CA6186800BA89B6 /* FurGlassDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D4907CF51CA61A1100BA89B6 /* AppDelegate */,
+				D4907CF31CA6199300BA89B6 /* ViewControllers */,
+				D4907CBE1CA6186800BA89B6 /* Supporting Files */,
+			);
+			path = FurGlassDemo;
+			sourceTree = "<group>";
+		};
+		D4907CBE1CA6186800BA89B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4907CCA1CA6186800BA89B6 /* Assets.xcassets */,
+				D4907D091CA663A800BA89B6 /* backImage.png */,
+				D4907CCF1CA6186800BA89B6 /* Info.plist */,
+				D4907CBF1CA6186800BA89B6 /* main.m */,
+				D4907CFF1CA6222B00BA89B6 /* HHPrefixHeader.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4907CD71CA6186800BA89B6 /* FurGlassDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4907CD81CA6186800BA89B6 /* FurGlassDemoTests.m */,
+				D4907CDA1CA6186800BA89B6 /* Info.plist */,
+			);
+			path = FurGlassDemoTests;
+			sourceTree = "<group>";
+		};
+		D4907CE21CA6186800BA89B6 /* FurGlassDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4907CE31CA6186800BA89B6 /* FurGlassDemoUITests.m */,
+				D4907CE51CA6186800BA89B6 /* Info.plist */,
+			);
+			path = FurGlassDemoUITests;
+			sourceTree = "<group>";
+		};
+		D4907CF31CA6199300BA89B6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4907CFC1CA61B5800BA89B6 /* HHNavigationController.h */,
+				D4907CFD1CA61B5800BA89B6 /* HHNavigationController.m */,
+				D4907CF91CA61A7B00BA89B6 /* HHScaleViewController.h */,
+				D4907CFA1CA61A7B00BA89B6 /* HHScaleViewController.m */,
+				D4907D031CA64C3000BA89B6 /* HHHideBarViewController.h */,
+				D4907D041CA64C3000BA89B6 /* HHHideBarViewController.m */,
+				D4907D061CA65C2600BA89B6 /* HHTransparentBarViewController.h */,
+				D4907D071CA65C2600BA89B6 /* HHTransparentBarViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D4907CF51CA61A1100BA89B6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D4907CF61CA61A1100BA89B6 /* AppDelegate.h */,
+				D4907CF71CA61A1100BA89B6 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4907CBA1CA6186800BA89B6 /* FurGlassDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4907CE81CA6186800BA89B6 /* Build configuration list for PBXNativeTarget "FurGlassDemo" */;
+			buildPhases = (
+				D4907CB71CA6186800BA89B6 /* Sources */,
+				D4907CB81CA6186800BA89B6 /* Frameworks */,
+				D4907CB91CA6186800BA89B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FurGlassDemo;
+			productName = FurGlassDemo;
+			productReference = D4907CBB1CA6186800BA89B6 /* FurGlassDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4907CD31CA6186800BA89B6 /* FurGlassDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4907CEB1CA6186800BA89B6 /* Build configuration list for PBXNativeTarget "FurGlassDemoTests" */;
+			buildPhases = (
+				D4907CD01CA6186800BA89B6 /* Sources */,
+				D4907CD11CA6186800BA89B6 /* Frameworks */,
+				D4907CD21CA6186800BA89B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4907CD61CA6186800BA89B6 /* PBXTargetDependency */,
+			);
+			name = FurGlassDemoTests;
+			productName = FurGlassDemoTests;
+			productReference = D4907CD41CA6186800BA89B6 /* FurGlassDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4907CDE1CA6186800BA89B6 /* FurGlassDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4907CEE1CA6186800BA89B6 /* Build configuration list for PBXNativeTarget "FurGlassDemoUITests" */;
+			buildPhases = (
+				D4907CDB1CA6186800BA89B6 /* Sources */,
+				D4907CDC1CA6186800BA89B6 /* Frameworks */,
+				D4907CDD1CA6186800BA89B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4907CE11CA6186800BA89B6 /* PBXTargetDependency */,
+			);
+			name = FurGlassDemoUITests;
+			productName = FurGlassDemoUITests;
+			productReference = D4907CDF1CA6186800BA89B6 /* FurGlassDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4907CB31CA6186800BA89B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HH;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hanjihong;
+				TargetAttributes = {
+					D4907CBA1CA6186800BA89B6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D4907CD31CA6186800BA89B6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D4907CBA1CA6186800BA89B6;
+					};
+					D4907CDE1CA6186800BA89B6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D4907CBA1CA6186800BA89B6;
+					};
+				};
+			};
+			buildConfigurationList = D4907CB61CA6186800BA89B6 /* Build configuration list for PBXProject "FurGlassDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4907CB21CA6186800BA89B6;
+			productRefGroup = D4907CBC1CA6186800BA89B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4907CBA1CA6186800BA89B6 /* FurGlassDemo */,
+				D4907CD31CA6186800BA89B6 /* FurGlassDemoTests */,
+				D4907CDE1CA6186800BA89B6 /* FurGlassDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4907CB91CA6186800BA89B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4907D0A1CA663A800BA89B6 /* backImage.png in Resources */,
+				D4907CCB1CA6186800BA89B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4907CD21CA6186800BA89B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4907CDD1CA6186800BA89B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4907CB71CA6186800BA89B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4907CF81CA61A1100BA89B6 /* AppDelegate.m in Sources */,
+				D4907CFB1CA61A7B00BA89B6 /* HHScaleViewController.m in Sources */,
+				D4907D051CA64C3000BA89B6 /* HHHideBarViewController.m in Sources */,
+				D4907CC01CA6186800BA89B6 /* main.m in Sources */,
+				D4907D081CA65C2600BA89B6 /* HHTransparentBarViewController.m in Sources */,
+				D4907CFE1CA61B5800BA89B6 /* HHNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4907CD01CA6186800BA89B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4907CD91CA6186800BA89B6 /* FurGlassDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4907CDB1CA6186800BA89B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4907CE41CA6186800BA89B6 /* FurGlassDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4907CD61CA6186800BA89B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4907CBA1CA6186800BA89B6 /* FurGlassDemo */;
+			targetProxy = D4907CD51CA6186800BA89B6 /* PBXContainerItemProxy */;
+		};
+		D4907CE11CA6186800BA89B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4907CBA1CA6186800BA89B6 /* FurGlassDemo */;
+			targetProxy = D4907CE01CA6186800BA89B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4907CE61CA6186800BA89B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4907CE71CA6186800BA89B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4907CE91CA6186800BA89B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/hanjihong/Desktop/FurGlassDemo/FurGlassDemo/HHPrefixHeader.h;
+				INFOPLIST_FILE = FurGlassDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xywy.ask.FurGlassDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4907CEA1CA6186800BA89B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/hanjihong/Desktop/FurGlassDemo/FurGlassDemo/HHPrefixHeader.h;
+				INFOPLIST_FILE = FurGlassDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xywy.ask.FurGlassDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4907CEC1CA6186800BA89B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FurGlassDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xywy.ask.FurGlassDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FurGlassDemo.app/FurGlassDemo";
+			};
+			name = Debug;
+		};
+		D4907CED1CA6186800BA89B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FurGlassDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xywy.ask.FurGlassDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FurGlassDemo.app/FurGlassDemo";
+			};
+			name = Release;
+		};
+		D4907CEF1CA6186800BA89B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FurGlassDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xywy.ask.FurGlassDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FurGlassDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D4907CF01CA6186800BA89B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FurGlassDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xywy.ask.FurGlassDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FurGlassDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4907CB61CA6186800BA89B6 /* Build configuration list for PBXProject "FurGlassDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4907CE61CA6186800BA89B6 /* Debug */,
+				D4907CE71CA6186800BA89B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4907CE81CA6186800BA89B6 /* Build configuration list for PBXNativeTarget "FurGlassDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4907CE91CA6186800BA89B6 /* Debug */,
+				D4907CEA1CA6186800BA89B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4907CEB1CA6186800BA89B6 /* Build configuration list for PBXNativeTarget "FurGlassDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4907CEC1CA6186800BA89B6 /* Debug */,
+				D4907CED1CA6186800BA89B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4907CEE1CA6186800BA89B6 /* Build configuration list for PBXNativeTarget "FurGlassDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4907CEF1CA6186800BA89B6 /* Debug */,
+				D4907CF01CA6186800BA89B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4907CB31CA6186800BA89B6 /* Project object */;
+}
